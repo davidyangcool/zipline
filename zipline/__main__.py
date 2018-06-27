@@ -263,7 +263,6 @@ def run(ctx,
         defines=define,
         data_frequency=data_frequency,
         capital_base=capital_base,
-        data=None,
         bundle=bundle,
         bundle_timestamp=bundle_timestamp,
         start=start,
@@ -275,6 +274,7 @@ def run(ctx,
         local_namespace=local_namespace,
         environ=os.environ,
         blotter_class=blotter_class,
+        benchmark_returns=None,
     )
 
     if output == '-':
